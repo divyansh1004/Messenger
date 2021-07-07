@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
-
+//to perform registration
     private fun performRegister() {
         val email = email_register.text.toString()
         val password = password_register.text.toString()
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d("Main", "Failed to create ${it.message}")
             }
     }
-
+//for uploading image to firestore
     private fun uploadimage() {
         if (selectedphoto == null)
             return
