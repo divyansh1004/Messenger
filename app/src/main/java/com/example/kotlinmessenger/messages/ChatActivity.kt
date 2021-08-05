@@ -22,7 +22,7 @@ import kotlinx.android.synthetic.main.chat_message_to.view.*
 
 class ChatActivity : AppCompatActivity() {
     companion object {
-        const val TAG = " CHATLOG"
+        const val TAG = " CHATLOG "
 
     }
 
